@@ -1,0 +1,1 @@
+matlab -nodesktop -nosplash -nodisplay < ./monte_carlo_cs.m

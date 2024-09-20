@@ -1,0 +1,75 @@
+Folder 1
+Freq window -650
+Freq vector length - 421
+Referenced data - (averaged_meas-averaged_ref)./mean(averaged_ref)
+Sigma - 0.0004
+
+B=83.28 G, err ~0.06G 
+theta = 24.88 
+Phi= 64.958
+
+==============================
+Folder 2
+Freq window -650
+Freq vector length - 651
+Referenced data - (averaged_meas-averaged_ref)./mean(averaged_ref)
+Sigma - 0.001
+
+B=101.87 G , err ~0.18
+theta = 23.124
+Phi= 63.15
+
+==============================
+Folder 3
+Freq window - 280  (300?)
+Freq vector length - 1000
+Sigma - 0.00006
+
+B=48.32 G err ~0.015G 
+theta = 29.77
+Phi= 69.1834
+
+==============================
+Folder 4
+Freq window - 540
+Freq vector length - 191
+Sigma - 0.0039
+
+B=69.5 G err ~0.36G 
+theta = 23.73
+Phi= 66.27
+
+
+=================================================
+Small field - 
+
+Middle freq - 2877
+linspace(2730,3000,270); (for 1,2,3)
+
+1:  (I_helm = [0.7, 2.2 ,4];)
+r =  38.170
+theta = (90-64.4245)
+phi = 67.3352
+sigma = 0.00043304
+(calculate sigma with std of first 20 freq points normalized, before the first peak)
+
+2: I_helm = [0.7, 2.2 ,4.5];
+r = 41.862
+theta = 90-66.8794
+phi = 67.5789
+
+3: I_helm = [1, 2.4 ,4.5];
+r = 42.887
+theta =90-63.7678
+phi =73.1431
+
+
+
+ obj.frequency = linspace(2730,3030,300);
+
+4: I_helm = [1, 2.8 ,4.5];
+r =44.104
+theta = 90-60.7683
+phi = 69.4327
+
+
